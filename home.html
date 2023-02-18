@@ -1,0 +1,151 @@
+<!DOCTYPE html
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content ="ie=edge">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+        <link rel=stylesheet href="css/style.css"/>
+        <link rel=stylesheet href="css/slideshow.css"/>
+        <link rel="icon" href="./img/guitar.png" />
+        <title>Jellie's Home Acoustics</title>
+    </head>
+    <body>
+        <header>
+            <div class="overlay"></div>
+            <nav>
+                <h2><img src="./img/spanish-guitar.png"style="width: 11.5%; height: 30%"><span class="highlight">HOME</span> ACOUSTICS</h2>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li class="cart">
+                        <button id="myBtn">
+                            <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="closeBtn">&times;</span>
+                <h3>Shopping cart</h3>
+                <p>Number of items in the cart: <span id="cart_num_modal">0</span></p>
+
+              <div class="products-container">
+                <div class="product-header">
+                    <h5 class="product-remove-btn"></h5>
+                    <h5 class="product">PRODUCT</h5>
+                    <h5 class="product-title">NAME</h5>
+                    <h5 class="price">PRICE</h5>
+                    <h5 class="quantity-header">QUANTITY</h5>
+                    <h5 class="total">TOTAL</h5>
+                </div>
+                <div class="products">
+                </div>
+                <span class="close"><button class="close_btn">Checkout</button></span>
+            </div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+        <!-- <script>
+
+        </script> -->
+
+        <section class="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="./img/acoustic1.png" alt="" width="400" height="400">
+                        </div>
+                        <div class="content">
+                            <!-- <span>Up to 50% off</span> -->
+                            <h3>Acoustic Guitar</h3>
+                            <!-- <button onclick="containerK()" class="button_1">Buy Now</button> -->
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="./img/bass.png" alt="" width="400" height="400">
+                        </div>
+                        <div class="content">
+                            <!-- <span>Up to 50% off</span> -->
+                            <h3>Electric Guitar</h3> 
+                            <!-- <button onclick="containerK()" class="button_1">Buy Now</button> -->
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="./img/ukulele.png" alt="" width="400" height="400">
+                        </div>
+                        <div class="content">
+                            <!-- <span>Up to 50% off</span> -->
+                            <h3>Ukulele</h3>
+                            <!-- <button onclick="containerK()" class="button_1">Buy Now</button> -->
+                        </div>
+                    </div>
+                </div>   
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+
+        <section id="feature">
+            <div class="container">
+                <h1>Our Features | Best Seller!</h1>
+            </div>
+        </section>
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/slideshow.js"></script>
+    
+        <div class="container">
+            <div class="image">
+                <img src="img/item1.png" alt="music1">
+                <h3>Classical Guitar</h3>
+                <h3>₱8,000.00</h3>
+                <a class="add-cart cart1" href="#" >Add to Cart</a> 
+                <input type="hidden" value="8000"/>
+            </div>
+            <div class="image">
+                <img src="img/item2.png" alt="music1">
+                <h3>Electric Guitar</h3>
+                <h3>₱18,000.00</h3>
+                <a class="add-cart cart1" href="#">Add to Cart</a>
+                <input type="hidden" value="18000"/>
+            </div>
+            <div class="image">
+                <img src="img/item3.png" alt="music1">
+                <h3>Ukulele</h3>
+                <h3>₱5,000.00</h3>
+                <a class="add-cart cart1" href="#">Add to Cart</a>
+                <input type="hidden" value="5000"/>
+            </div>
+            <div class="image">
+                <img src="img/item4.png" alt="music1">
+                <h3>Acoustic Guitar</h3>
+                <h3>₱10,000.00</h3>
+                <a class="add-cart cart1" href="#">Add to Cart</a>
+                <input type="hidden" value="10000"/>
+            </div>
+            <div class="image">
+                <img src="img/item5.png" alt="music1">
+                <h3>Bass Guitar</h3>
+                <h3>₱20,000.00</h3>
+                <a class="add-cart cart1" href="#">Add to Cart</a>
+                <input type="hidden" value="20000"/>
+            </div>
+        </div>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <footer>
+            <p>Jellie's Home Acoustics, Copyright &copy; 2021</p>
+        </footer>
+    </body>
+</html>
